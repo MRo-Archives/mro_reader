@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "文章AI読響システム -MRo-",
+  title: "文章AI読響システム -MRo Reader-",
   description: "あなたと文章を高め合うAI",
 };
 
