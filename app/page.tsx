@@ -33,7 +33,7 @@ export default function Page() {
         {/* ヘッダー */}
         <header className="mb-8">
           <h1 className="text-2xl md:text-3xl font-bold tracking-tight">
-            文章AI 読響システム <span className="opacity-60">- MRo -</span>
+            文章AI 読響システム <span className="opacity-60">- MRo Reader-</span>
           </h1>
           <p className="text-sm text-zinc-600 dark:text-zinc-400 mt-2">
             あなたと文章を高め合うAI
