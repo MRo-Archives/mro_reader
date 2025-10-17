@@ -4,7 +4,7 @@ import OpenAI from "openai";
 const MODEL = "gpt-5-nano"; // 固定でnano（コスト安定）
 type SpeedMode = "quick" | "deep";
 const OUTPUT_BUDGET: Record<SpeedMode, { maxOut: number; sumLen: number; resLen: number; maxItems: number; maxChars: number; }> = {
-  quick: { maxOut: 1024, sumLen: 120, resLen: 120, maxItems: 1, maxChars: 1000 },
+  quick: { maxOut: 3072, sumLen: 120, resLen: 120, maxItems: 1, maxChars: 1000 },
   deep:  { maxOut: 3072, sumLen: 200, resLen: 200, maxItems: 3, maxChars: 3000 },
 };
 // —— スタイル規範：文末・視点・語彙・禁止表現をガチ縛り

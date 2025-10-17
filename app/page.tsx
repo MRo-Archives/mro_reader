@@ -65,7 +65,8 @@ export default function Home() {
           id: crypto.randomUUID(),
           text,
           style,
-          customPrompt: (data.customPrompt ?? "").toString(),
+//          customPrompt: (data.customPrompt ?? "").toString(),
+          customPrompt,
           result: data.result,
           createdAt: Date.now()
         };
